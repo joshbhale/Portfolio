@@ -3,6 +3,8 @@ body {
     color: #253a52;
     padding: 25px;
     font-family: sans-serif;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -19,6 +21,12 @@ h2 {
     display: flex;
 }
 
+@media (max-width: 1024px) {
+    .bio {
+        flex-direction: column;
+    }
+}
+
 a.button {
     text-decoration: none;
     color:#ffffe3;
@@ -32,4 +40,10 @@ a.button {
 
 article {
     display: flex;
+}
+
+@media (max-width: 1024px) {
+    article {
+        flex-direction: column;
+    }
 }
