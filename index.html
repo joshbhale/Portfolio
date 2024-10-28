@@ -1,39 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en-us">
+  <head>
     <title>Joshua Hale's Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sora:wght@700&family=Work+Sans:ital,wght@0,400;0,700;1,600&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <section class="bio">
-    <img class="profile-image" src="C:\Users\livel\OneDrive\Documents\GitHub\Portfolio\Resources\Images\TDZPE6801.JPG"/>
-    <div>
-    <h2>Hello! My name is Joshua Hale. I'm currently looking for a junior role as a software engineer.</h2>
-    <p>I have been coding for a couple months now and have come a long way. I am comfortable with HTML, CSS, Git &
-        GitHub, and have a basic understanding of JavaScript (using functions, if...else statements, for loops, etc...).
-        I don't have a bunch of impressive projects to showcase yet, but I am enjoying coding more and more every 
-        day and I do my best to learn something new every day. In my free time I enjoy things like trail running, rock climbing, and 
-        reading.
-    </p>
-<a class="button" target="_blank">See my work</a>
-</div>
-</section>
-<section>
-    <h2>Recent Work</h2>
-    <article>
-        <div>
-        <h3>Random Quote Generator</h3>
-        <p></p>
-        <strong>October 2024</strong>
+    <link rel="stylesheet" href="toggle-switch.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Joshua Hale</h1>
         <ul>
-            <li></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-        <a href="" target="_blank">GitHub Repo</a>
+      </nav>
+    </header>
+
+    <section class="bio">
+      <img class="profile-img" src="C:\Users\livel\OneDrive\Documents\GitHub\Portfolio\Resources\Images\TDZPE6801.JPG" />
+      <div>
+        <h2>Hello! My name is Joshua Hale. I am looking for a junior role or internship as a software engineer.</h2>
+        <p>
+          I have been coding for a couple months now, and I become more and more interested in it every day. 
+          I am comfortable with HTML, CSS, Git & GitHub, and MarkDown. I also have a basic understanding of 
+          JavaScript (functions, if...else statements, for loops, etc...). In my free time I enjoy things such as
+          trail running, rock climbing, and reading.
+        </p>
+        <a class="btn" href="#">See my work</a>
+      </div>
+    </section>
+
+    <section class="recent-work">
+      <h2>Recent Work</h2>
+      <article>
+        <div>
+          <h3>Random Quote Generator</h3>
+          <p>Providing random inspirational quote, philosophical quote, or fun fact.</p>
+          <strong>October 2024</strong>
+          <ul>
+            <li>Random number generator used to decide which quote will be displayed.</li>
+            <li>if...else statement used to cycle through numbers and return quote.</li>
+          </ul>
+          <a href="#">GitHub Repo</a>
         </div>
-    </article>
-</section>
+      </article>
+      <article>
+        <div>
+          <h3></h3>
+          <p></p>
+          <strong>September 2024</strong>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <a href="#">GitHub Repo</a>
+        </div>
+      </article>
+      <article>
+        <div>
+          <h3></h3>
+          <p></p>
+          <strong>August 2024</strong>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <a href="#">GitHub Repo</a>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#">
+            LinkedIn
+            <span class="link-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            CV
+            <span class="link-icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            GitHub
+            <span class="link-icon">
+              <i class="fa-brands fa-github"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p class="copywright">© 2024 Joshua Hale</p>
+    </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
