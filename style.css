@@ -12,6 +12,7 @@ h2 {
 img {
     width: 320px;
     margin-inline-end: 4rem;
+    border-radius: 85%;
 }
 
 section {
