@@ -9,17 +9,17 @@ h2 {
     font-size: 2.8rem;
 }
 
-img {
+.profile-image {
     width: 320px;
     margin-inline-end: 4rem;
     border-radius: 85%;
 }
 
-section {
+.bio {
     display: flex;
 }
 
-a {
+a.button {
     text-decoration: none;
     color:#ffffe3;
     background: #1348da;
@@ -28,4 +28,8 @@ a {
     display: inline-flex;
     align-items: center;
     border-radius: 1.25rem;
+}
+
+article {
+    display: flex;
 }
